@@ -1,0 +1,29 @@
+Python Pandas Cheat Sheet
+
+# How to open a csv file? 
+pd.read_csv('D:/pandas test samples/data_1.csv')
+
+# How to write data as excel file? 
+pd.to_excel('D:/pandas test samples/output.xlsx')
+
+#appends data2 value to data1
+df1.append(df2, ignore_index=True)
+
+Example: 
+Value of df1
+   a  b
+0  1  5
+1  2  6
+
+Printing df2
+   a  b
+0  1  5
+1  2  6
+
+Result 
+Output
+   a  b
+0  1  5
+1  2  6
+2  1  5
+3  2  6
